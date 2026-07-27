@@ -1,0 +1,20 @@
+{
+  "name": "@aethertech/hermes-integration",
+  "version": "1.0.0",
+  "description": "Hermes Agent integration for AetherTech AI Ecosystem",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nebula/aether-client-config": "workspace:*",
+    "@nebula/gateway-sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
